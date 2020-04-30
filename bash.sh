@@ -11,7 +11,7 @@ read second
 echo 'Enter operation'
 read op
 
-if [ op -eq '+' ]
+if [ $op == '+' ]
 then
   echo $(($first+$second))
 fi
